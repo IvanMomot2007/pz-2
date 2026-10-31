@@ -77,10 +77,6 @@ section {
   color: #eee;
 }
 
-.btn2 {
-  border: none;
-}
-
 .btnContainer {
   margin-top: 2em;
 }
@@ -163,53 +159,6 @@ section {
 .marketPic4 { background-color: #50d79f; }
 .marketPic img { width: 50px !important; }
 
-.video { width: 68%; }
-video {
-  width: 100%;
-  position: relative;
-  margin-bottom: 1em;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.dashboardPic {
-  order: 0;
-  margin-top: 2em;
-}
-
-.newsletter {
-  border: 1px solid #fff;
-  border-radius: 50px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  overflow: hidden;
-}
-
-.newsletter input {
-  font-size: 1.1rem;
-  padding: 0.7em 1.5em;
-  width: 100%;
-  border: none;
-  outline: none;
-  color: #fff;
-  background-color: transparent;
-}
-
-.newsletter input::placeholder {
-  color: var(--lightgrey);
-}
-
-.newsletter button {
-  background-color: var(--primarycolor);
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-}
-
-.newsletterDesc { order: 0; }
-.newsletterPic { order: 1; }
-
 .contactSection { margin-top: 2em; }
 .contactformContainer { display: flex; flex-direction: column; order: 1; }
 .contactPic {
@@ -226,8 +175,7 @@ video {
   gap: 20px;
 }
 
-.contactForm input:focus:invalid,
-.newsletter input:focus:invalid {
+.contactForm input:focus:invalid {
   background-color: #df22225b;
   color: red;
 }
@@ -265,41 +213,17 @@ video {
 
 .eachAddress p { margin-bottom: 1em; }
 
-.fundSection {
-  width: 85%;
-  max-width: 1100px;
-  margin: 5em auto;
-}
-
-.fundsContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
-}
-.fund { margin-top: 1em; }
-
 footer {
   background-color: var(--lightDark);
   margin-top: 5em;
 }
 
-.joinSection,
 .footerlinksContainer {
   width: 90%;
   max-width: 1100px;
   margin: auto;
   padding: 1em;
 }
-
-.joinSection {
-  display: flex;
-  align-items: center;
-  padding: 3em 0;
-}
-
-.joinSection .joinDesc { width: 80%; }
-.joinSection button { height: auto; }
-.joinus { height: 35vh; }
 
 .footerlinksContainer {
   margin: auto;
@@ -312,7 +236,6 @@ footer {
 }
 
 .footersociallinkContainer { margin-top: 1em; }
-.footerAboutus .sociallinkContainer { justify-content: flex-start; }
 .footerlink { display: flex; flex-direction: column; color: var(--white); }
 .footerlink a { color: var(--white); margin-bottom: 1em; transition: all 0.5s ease-in-out; }
 .footerlink a:hover { transform: translateX(10px); }
@@ -340,15 +263,6 @@ footer i {
   transition: all 0.25s;
 }
 
-.glass-card {
-  width: 320px;
-  padding: 24px;
-  border-radius: 16px;
-  color: #ffffff;
-  background-color: rgba(18, 24, 38, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
 .marketspicSection {
   background-color: #ababad;
   border: 1px solid rgba(142, 84, 233, 0.3);
@@ -390,7 +304,6 @@ footer i {
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
   ul.menu li { display: block; margin: 25px 0 25px 20px; }
-  ul.menu .primaryBtn { border: none; background-color: transparent; }
   ul.menu li:nth-child(1) { margin-top: 80px; }
   ul.menu a { color: var(--white); }
 
@@ -428,18 +341,11 @@ footer i {
   .hero { margin-top: 4em; }
   .gridSection { grid-template-columns: 1fr; }
   .primaryBtn { padding: 0.7em 1em; }
-  .video { width: 85%; }
-  .slideshow { margin-bottom: 0; }
-  .demo img { max-height: 400px; }
-  .dashboardDesc { order: 1; }
-  .dashboardPic, #sectionPic { order: 2; }
-  .sectionDesc, .newsletterDesc { order: 1; }
+  #sectionPic { order: 2; }
+  .sectionDesc { order: 1; }
   .address { grid-template-columns: 1fr 1fr; }
-  .newsletterPic, .contactformContainer { order: 0; }
-  .fundsContainer { grid-template-columns: 1fr 1fr; }
+  .contactformContainer { order: 0; }
   .contactPic { order: 1; }
-  .joinSection { flex-direction: column; align-items: flex-start; }
-  .joinus { height: 70vh; }
   .footerlinksContainer { grid-template-columns: 1fr 1fr; }
 }
 
@@ -447,10 +353,7 @@ footer i {
   body { overflow-x: hidden; }
   .headline { font-size: 3.5em; }
   section { width: 85%; }
-  .demo { height: 60vh; }
   .primaryBtn { padding: 0.5em; text-align: center; }
-  .slideshow { margin-bottom: -10px; }
-  .demo img { max-height: 250px; }
   .gallery {
     margin: 0;
     height: 220vh;
@@ -469,9 +372,7 @@ footer i {
   }
   .card { height: 40vmin; }
   .card img { filter: grayscale(0); }
-  .joinSection { flex-wrap: wrap; }
-  .joinus { height: 100vh; }
   .sectionDesc { margin-top: 5em; }
-  .address, .fundsContainer, .footerlinksContainer { grid-template-columns: 1fr; }
+  .address, .footerlinksContainer { grid-template-columns: 1fr; }
   .contactSection { margin-top: 80px; }
 }

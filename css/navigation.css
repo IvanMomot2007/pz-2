@@ -24,11 +24,6 @@ nav {
   z-index: 9999;
 }
 
-.container nav {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 /* Селектор нащадків / дочірній селектор */
 nav ul {
   display: flex;
@@ -44,13 +39,6 @@ nav a {
 
 nav a:hover {
   color: #c0c9d2;
-}
-
-nav .flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
 }
 
 #menu_toggle {

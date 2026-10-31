@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI + Код — Digital Copilot</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/gallery.css">
-    <link rel="stylesheet" href="./css/headers.css">
-    <link rel="stylesheet" href="./css/navigation.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="stylesheet" href="./css/tables.css">
-    <link rel="stylesheet" href="./css/text.css">
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/headers.css" />
+    <link rel="stylesheet" href="./css/navigation.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/tables.css" />
+    <link rel="stylesheet" href="./css/text.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
     <script src="https://kit.fontawesome.com/4184b76dff.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <div class="flex logo">
-        <a href="./index.html"><img src="./images/logo.png" height="48px" alt=""></a>
+        <a href="./index.html"><img src="./images/logo.png" height="48px" alt=""/></a>
       </div>
       <nav>
         <input type="checkbox" id="menu_toggle" />
@@ -39,31 +39,38 @@
       <section class="hero gridSection">
         <div class="sectionDesc">
           <h1 class="headline" id="page-title">AI допомагає розбиратися з кодом</h1>
-          <p class="sectionPara">
-            Модель може пояснити помилку чи запропонувати варіант. Я відповідаю
-            за те, щоб зрозуміти, перевірити й адаптувати його до завдання.
-          </p>
+          <p class="sectionPara">Модель може пояснити помилку чи запропонувати варіант. Я відповідаю за те, щоб зрозуміти, перевірити й адаптувати його до завдання.</p>
         </div>
         <div class="sectionPic bouncepic" id="sectionPic">
-          <img
-            src="./images/ai-crm-2026-8-20260921-072817-m4dp.jpg"
-            alt="Людина працює за комп'ютером і спілкується з цифровим помічником"
-            height="400"
-          />
+          <img src="./images/ai-crm-2026-8-20260921-072817-m4dp.jpg" alt="Людина працює за комп'ютером і спілкується з цифровим помічником" height="400"/>
         </div>
       </section>
 
-      <section class="content-section" aria-labelledby="helps-title">
+      <section class="content-section">
         <h2 class="sectionHeader" id="helps-title">Що можна дослідити разом з AI</h2>
         <div class="gridSection">
-          <article class="content-card"><h3 class="processTitle">Синтаксис</h3><p>Попросити розібрати незнайому конструкцію на зрозумілі кроки.</p></article>
-          <article class="content-card"><h3 class="processTitle">Помилка</h3><p>Показати повідомлення про помилку й перевірити можливі причини.</p></article>
-          <article class="content-card"><h3 class="processTitle">Алгоритм</h3><p>Порівняти декілька варіантів рішення і їхні обмеження.</p></article>
-          <article class="content-card"><h3 class="processTitle">Тестування</h3><p>Продумати граничні випадки й спробувати перевірити результат.</p></article>
+          <article class="content-card">
+            <h3 class="processTitle">Синтаксис</h3>
+            <p>Попросити розібрати незнайому конструкцію на зрозумілі кроки.</p>
+          </article>
+          <article class="content-card">
+            <h3 class="processTitle">Помилка</h3>
+            <p>
+              Показати повідомлення про помилку й перевірити можливі причини.
+            </p>
+          </article>
+          <article class="content-card">
+            <h3 class="processTitle">Алгоритм</h3>
+            <p>Порівняти декілька варіантів рішення і їхні обмеження.</p>
+          </article>
+          <article class="content-card">
+            <h3 class="processTitle">Тестування</h3>
+            <p>Продумати граничні випадки й спробувати перевірити результат.</p>
+          </article>
         </div>
       </section>
 
-      <section class="content-section" aria-labelledby="steps-title">
+      <section class="content-section">
         <h2 class="sectionHeader" id="steps-title">Від питання до перевіреного рішення</h2>
         <ol class="workflow-list">
           <li>Формулюю задачу і визначаю, який результат очікую.</li>
@@ -75,11 +82,10 @@
         </ol>
       </section>
 
-      <section class="content-section" aria-labelledby="roles-title">
+      <section class="content-section">
         <h2 class="sectionHeader" id="roles-title">Людина та AI у роботі над кодом</h2>
         <div class="table-scroll">
           <table>
-            <caption>Порівняння відповідальності під час роботи над програмою</caption>
             <thead>
               <tr>
                 <th scope="col">Завдання</th>
@@ -88,17 +94,37 @@
               </tr>
             </thead>
             <tbody>
-              <tr><td>Мета</td><td>Визначає потребу й умови задачі</td><td>Допомагає сформулювати запитання</td></tr>
-              <tr><td>Рішення</td><td>Обирає та відповідає за реалізацію</td><td>Може запропонувати альтернативи</td></tr>
-              <tr><td>Код</td><td>Пише, читає й адаптує зміни</td><td>Може пояснити чи згенерувати фрагмент</td></tr>
-              <tr><td>Перевірка</td><td>Запускає тести й оцінює поведінку</td><td>Може підказати можливі випадки для тестування</td></tr>
-              <tr><td>Результат</td><td>Приймає фінальне рішення</td><td>Не замінює людську відповідальність</td></tr>
+              <tr>
+                <td>Мета</td>
+                <td>Визначає потребу й умови задачі</td>
+                <td>Допомагає сформулювати запитання</td>
+              </tr>
+              <tr>
+                <td>Рішення</td>
+                <td>Обирає та відповідає за реалізацію</td>
+                <td>Може запропонувати альтернативи</td>
+              </tr>
+              <tr>
+                <td>Код</td>
+                <td>Пише, читає й адаптує зміни</td>
+                <td>Може пояснити чи згенерувати фрагмент</td>
+              </tr>
+              <tr>
+                <td>Перевірка</td>
+                <td>Запускає тести й оцінює поведінку</td>
+                <td>Може підказати можливі випадки для тестування</td>
+              </tr>
+              <tr>
+                <td>Результат</td>
+                <td>Приймає фінальне рішення</td>
+                <td>Не замінює людську відповідальність</td>
+              </tr>
             </tbody>
           </table>
         </div>
       </section>
 
-      <section class="content-section" aria-labelledby="resources-title">
+      <section class="content-section">
         <p class="eyebrow">Джерела</p>
         <h2 class="sectionHeader" id="resources-title">Документація для перевірки</h2>
         <div class="gridSection">
@@ -125,17 +151,9 @@
       <div class="footerlinksContainer">
         <div class="footerAboutus">
           <img src="./images/logo.png" width="200" alt="" />
-          <p class="darkPara">
-            Crypto offers a straightforward user interface and zero commissions,
-            making it the most dependable platform for cryptocurrency trading.
-          </p>
-          <div class="footersociallinkContainer">
-            <a href="https://www.instagram.com/ivan.momot.07/" target="_blank"
-              ><i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i
-            ></a>
-            <a href="https://github.com/IvanMomot2007" target="_blank"
-              ><i class="fa-brands fa-github fa-xl" style="color: #fff"></i
-            ></a>
+          <p class="darkPara">Digital Copilot забезпечує швидкий доступ до екосистеми штучного інтелекту без зайвих складнощів, допомагаючи ефективно писати код, засвоювати знання та створювати власні цифрові рішення.<div class="footersociallinkContainer">
+            <a href="https://www.instagram.com/ivan.momot.07/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i></a>
+            <a href="https://github.com/IvanMomot2007" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #fff"></i></a>
           </div>
         </div>
 
@@ -151,18 +169,8 @@
         </div>
         <div class="footerlink">
           <h1 class="linkTitle">Взірці</h1>
-          <a
-            href="https://github.com/ProgrammingInsider/Crypto-Website-Template"
-            class="eachLink"
-            target="_blank"
-            >Crypto-Website-Template</a
-          >
-          <a
-            href="https://codepen.io/bbx/pen/Jxoqdg"
-            class="eachLink"
-            target="_blank"
-            >Accordion gallery zoom animation (css, responsive)</a
-          >
+          <a href="https://github.com/ProgrammingInsider/Crypto-Website-Template" class="eachLink" target="_blank">Crypto-Website-Template</a>
+          <a href="https://codepen.io/bbx/pen/Jxoqdg" class="eachLink" target="_blank">Accordion gallery zoom animation (css, responsive)</a>
         </div>
       </div>
 

@@ -18,15 +18,6 @@ p {
   -webkit-text-stroke: 1px #fff;
 }
 
-p.leadText::first-letter {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: var(--primarycolor);
-  float: left;
-  line-height: 0.8;
-  margin-right: 8px;
-}
-
 a[href*="http"] {
   color: var(--lightgrey);
   transition: color 0.25s ease;

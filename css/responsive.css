@@ -29,10 +29,6 @@
     margin: 25px 0;
     margin-left: 20px;
   }
-  ul.menu .primaryBtn {
-    border: none;
-    background-color: transparent;
-  }
   ul.menu li:nth-child(1) {
     margin-top: 80px;
   }
@@ -107,52 +103,20 @@
   .primaryBtn {
     padding: 0.7em 1em;
   }
-  .video {
-    width: 85%;
-  }
-  .slideshow {
-    margin-bottom: 0;
-  }
-  .demo img {
-    max-height: 400px;
-  }
-  .dashboardDesc {
-    order: 1;
-  }
-  .dashboardPic {
-    order: 2;
-  }
-  #sectionPic,
-  .dashboardPic {
+  #sectionPic {
     order: 2;
   }
   .sectionDesc {
     order: 1;
   }
-  .newsletterDesc {
-    order: 1;
-  }
   .address {
     grid-template-columns: 1fr 1fr;
-  }
-  .newsletterPic {
-    order: 0;
   }
   .contactformContainer {
     order: 0;
   }
-  .fundsContainer {
-    grid-template-columns: 1fr 1fr;
-  }
   .contactPic {
     order: 1;
-  }
-  .joinSection {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .joinus {
-    height: 70vh;
   }
   .footerlinksContainer {
     grid-template-columns: 1fr 1fr;
@@ -169,18 +133,9 @@
   section {
     width: 85%;
   }
-  .demo {
-    height: 60vh;
-  }
   .primaryBtn {
     padding: 0.5em 0.5em;
     text-align: center;
-  }
-  .slideshow {
-    margin-bottom: -10px;
-  }
-  .demo img {
-    max-height: 250px;
   }
   .gallery {
     margin: 0;
@@ -233,12 +188,6 @@
   .card:not(:nth-child(5)) {
     margin-right: 1em;
   }
-  .joinSection {
-    flex-wrap: wrap;
-  }
-  .joinus {
-    height: 100vh;
-  }
   .sectionDesc {
     margin-top: 5em;
   }
@@ -247,9 +196,6 @@
   }
   .contactSection {
     margin-top: 80px;
-  }
-  .fundsContainer {
-    grid-template-columns: 1fr;
   }
   .footerlinksContainer {
     grid-template-columns: 1fr;
