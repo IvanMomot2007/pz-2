@@ -376,3 +376,51 @@ footer i {
   .address, .footerlinksContainer { grid-template-columns: 1fr; }
   .contactSection { margin-top: 80px; }
 }
+
+@media print {
+  header,
+  footer,
+  nav,
+  .navigation,
+  .btn,
+  button,
+  form,
+  .contactForm,
+  #sectionPic {
+    display: none !important;
+  }
+
+  body,
+  main,
+  section,
+  article,
+  .mainContent {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, td, th {
+    color: #000000 !important;
+    text-shadow: none !important;
+  }
+
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    background-color: transparent !important;
+  }
+
+  th, td {
+    border: 1px solid #333333 !important;
+    color: #000000 !important;
+    background-color: transparent !important;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555555;
+  }
+}
