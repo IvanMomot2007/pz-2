@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій Digital Copilot</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/headers.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/tables.css">
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/4184b76dff.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="flex logo">
+        <a href="./index.html"><img src="./images/logo.png" height="48px" alt=""></a>
+      </div>
+      <nav>
+        <input type="checkbox" id="menu_toggle" />
+        <label for="menu_toggle" class="menu_btn"><span></span></label>
+        <ul class="menu">
+          <li><a href="./index.html" class="nav-link">Головна</a></li>
+          <li><a href="./copilot.html" class="nav-link">Copilot</a></li>
+          <li><a href="./coding.html" class="nav-link">AI + Код</a></li>
+          <li><a href="./learning.html" class="nav-link">Навчання</a></li>
+          <li><a href="./ai-creativity.html" class="nav-link">Творчість</a></li>
+          <li><a href="./gallery.html" class="nav-link">Галерея</a></li>
+          <li><a href="./form-pz1.html" class="nav-link">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="hero gridSection">
+        <div class="sectionDesc">
+          <p class="eyebrow">Мій спосіб роботи</p>
+          <h1 class="headline" id="page-title">Цифровий помічник, не автопілот</h1>
+          <p class="sectionPara">
+            Я формулюю запит, оцінюю отриману відповідь і відповідаю за те, що використовую.
+            AI може прискорити роботу, але не замінює самостійне розуміння.
+          </p>
+        </div>
+        <div class="sectionPic bouncepic" id="sectionPic">
+          <img src="./images/comp-build.jpg" alt="Схематична ілюстрація цифрової інфраструктури та комп'ютера" height="400"/>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2 class="sectionHeader" id="capabilities-title">Де AI може допомогти</h2>
+        <div class="gridSection">
+          <article class="content-card">
+            <h3 class="processTitle">Зрозуміти</h3>
+            <p>Пояснити новий термін, тему або частину документації іншими словами.</p>
+          </article>
+          <article class="content-card">
+            <h3 class="processTitle">Дослідити</h3>
+            <p>Допомогти з пошуком напрямків, прикладів та альтернативних підходів.</p>
+          </article>
+          <article class="content-card">
+            <h3 class="processTitle">Перевірити</h3>
+            <p>Знайти можливу помилку чи поставити запитання, які допоможуть перевірити ідею.</p>
+          </article>
+          <article class="content-card">
+            <h3 class="processTitle">Упорядкувати</h3>
+            <p>Скласти план, розбити завдання на етапи або підсумувати матеріал.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2 class="sectionHeader" id="tools-title">Приклади AI-інструментів</h2>
+        <div class="table-scroll">
+          <table>
+            <caption>Приклади моделей та типових навчальних завдань</caption>
+            <thead>
+              <tr>
+                <th scope="col">Інструмент або тип</th>
+                <th scope="col">Можливе застосування</th>
+                <th scope="col">Моя роль</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ChatGPT</td>
+                <td>Обговорення ідей, пояснення тем і допомога з кодом</td>
+                <td>Перевірити відповідь і застосувати її обдумано</td>
+              </tr>
+              <tr>
+                <td>Claude</td>
+                <td>Робота з текстами та великим обсягом інформації</td>
+                <td>Зіставити результат із першоджерелом</td>
+              </tr>
+              <tr>
+                <td>Gemini</td>
+                <td>Пошук напрямків для дослідження та генерація ідей</td>
+                <td>Оцінити доречність запропонованих варіантів</td>
+              </tr>
+              <tr>
+                <td>AI-помічники для коду</td>
+                <td>Пояснення фрагментів і пошук можливих помилок</td>
+                <td>Самостійно зрозуміти, протестувати й адаптувати зміни</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <h2 class="sectionHeader" id="terms-title">Основні поняття</h2>
+        <article class="content-card">
+          <dl>
+            <dt>Штучний інтелект</dt>
+            <dd>Системи, що виконують завдання аналізу, передбачення або створення інформації.</dd>
+            <dt>Мовна модель</dt>
+            <dd>Модель, навчена працювати з текстом та створювати відповіді на запити.</dd>
+            <dt>Запит (prompt)</dt>
+            <dd>Інструкція, за допомогою якої користувач пояснює моделі своє завдання.</dd>
+            <dt>Співпраця людини й AI</dt>
+            <dd>Процес, у якому AI пропонує допомогу, а людина перевіряє результат і приймає рішення.</dd>
+          </dl>
+        </article>
+      </section>
+
+      <section class="content-section">
+        <p class="sectionPara"><strong>Не копіювати. Зрозуміти → перевірити → використати.</strong></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footerlinksContainer">
+        <div class="footerAboutus">
+          <img src="./images/logo.png" width="200" alt="" />
+          <p class="darkPara">
+            Crypto offers a straightforward user interface and zero commissions,
+            making it the most dependable platform for cryptocurrency trading.
+          </p>
+          <div class="footersociallinkContainer">
+            <a href="https://www.instagram.com/ivan.momot.07/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i
+            ></a>
+            <a href="https://github.com/IvanMomot2007" target="_blank"
+              ><i class="fa-brands fa-github fa-xl" style="color: #fff"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footerlink">
+          <h1 class="linkTitle">Навігація</h1>
+          <a href="./index.html" class="eachLink">Головна</a>
+          <a href="./copilot.html" class="eachLink">Copilot</a>
+          <a href="./coding.html" class="eachLink">AI + Код</a>
+          <a href="./learning.html" class="eachLink">Навчання</a>
+          <a href="./ai-creativity.html" class="eachLink">Творчість</a>
+          <a href="./gallery.html" class="eachLink">Галерея</a>
+          <a href="./form-pz1.html" class="eachLink">Контакти</a>
+        </div>
+        <div class="footerlink">
+          <h1 class="linkTitle">Взірці</h1>
+          <a
+            href="https://github.com/ProgrammingInsider/Crypto-Website-Template"
+            class="eachLink"
+            target="_blank"
+            >Crypto-Website-Template</a
+          >
+          <a
+            href="https://codepen.io/bbx/pen/Jxoqdg"
+            class="eachLink"
+            target="_blank"
+            >Accordion gallery zoom animation (css, responsive)</a
+          >
+        </div>
+      </div>
+
+      <div class="footerCopyright">
+        <p>&copy; 2026 by <span class="developedBy">Ivan Momot</span></p>
+      </div>
+    </footer>
+  </body>
+</html>

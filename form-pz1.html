@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти — Digital Co-Pilot</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+    <link rel="stylesheet" href="./css/headers.css" />
+    <link rel="stylesheet" href="./css/navigation.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/tables.css" />
+    <link rel="stylesheet" href="./css/text.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+
+    <script src="https://kit.fontawesome.com/4184b76dff.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="flex logo">
+        <a href="./index.html"><img src="./images/logo.png" height="48px" alt=""></a>
+      </div>
+      <nav>
+        <input type="checkbox" id="menu_toggle" />
+        <label for="menu_toggle" class="menu_btn"><span></span></label>
+        <ul class="menu">
+          <li><a href="./index.html" class="nav-link">Головна</a></li>
+          <li><a href="./copilot.html" class="nav-link">Co-Pilot</a></li>
+          <li><a href="./coding.html" class="nav-link">AI + Код</a></li>
+          <li><a href="./learning.html" class="nav-link">Навчання</a></li>
+          <li><a href="./ai-creativity.html" class="nav-link">Творчість</a></li>
+          <li><a href="./gallery.html" class="nav-link">Галерея</a></li>
+          <li><a href="./form-pz1.html" class="nav-link">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="gridSection contactSection">
+        <div class="contactformContainer">
+          <h1 class="sectionHeader">Зворотний зв'язок</h1>
+          <p class="sectionPara">
+            Заповніть форму, щоб сформулювати запитання, пропозицію чи тему для
+            розмови про веброзробку та штучний інтелект.
+          </p>
+          <form action="./thanks.html" class="contactForm">
+            <div>
+              <input type="text" name="name" id="name" placeholder="Введіть ім'я" pattern="[А-Яа-яA-Za-z]{2,70}" class="contactInput" required  />
+              <input type="text" name="surname" id="surname" placeholder="Введіть прізвище" pattern="[А-Яа-яA-Za-z]{2,70}" class="contactInput" required  />
+            </div>
+            <input type="email" name="" id="email" placeholder="Email" class="contactInput" required/>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+380 XX XXX XX XX" class="contactInput" required/>
+            <textarea name="message" id="" cols="30" rows="5" placeholder="Почніть вводити текст" class="contactInput"></textarea>
+            <fieldset>
+              <legend>Як із вами зв'язатися?</legend>
+              <label class="choice-label" for="contact-email">
+                <input type="radio" id="contact-email" name="contact-method" value="email" required />
+                <span>Електронною поштою</span> </label
+              ><br />
+              <label class="choice-label" for="contact-phone">
+                <input type="radio" id="contact-phone" name="contact-method" value="phone"/>
+                <span>Телефоном</span>
+              </label>
+            </fieldset>
+
+            <label class="choice-label consent-label" for="reply">
+              <input type="checkbox" id="reply" name="reply" value="yes" />
+              <span>Хочу отримати відповідь на своє звернення.</span>
+            </label>
+            <br />
+            <button type="submit" class="btn primaryBtn contactBtn">
+              Надіслати
+            </button>
+          </form>
+        </div>
+        <div class="sectionPic bouncepic contactPic" id="sectionPic">
+          <img src="./images/contact-img.png" alt="" />
+        </div>
+      </section>
+
+      <h2 class="addressHeader">Знайти нас</h2>
+      <div class="address">
+        <div class="eachAddress">
+          <h1>США</h1>
+          <p>
+            Телефон:
+            <a href="tel:+16136759134" class="contactLink">(613) 675-9134</a>
+          </p>
+          <p>Адрес: 441 4th St NW, Вашингтон, DC 20001</p>
+          <p>
+            Email:
+            <a href="mailto:example@mymail.com" class="contactLink">example@mymail.com</a>
+          </p>
+        </div>
+        <div class="eachAddress">
+          <h1>Україна</h1>
+          <p>
+            Телефон:
+            <a href="tel:+380576324242" class="contactLink">(057) 632-4242</a>
+          </p>
+          <p>Адрес: вул. Миколаївська, 6, Харків</p>
+          <p>
+            Email:
+            <a href="mailto:example@mymail.com" class="contactLink">example@mymail.com</a>
+          </p>
+        </div>
+        <div class="eachAddress">
+          <h1>Німеччина</h1>
+          <p>
+            Телефон:
+            <a href="tel:+4994224767247" class="contactLink">(942) 247-6727</a>
+          </p>
+          <p>Адрес: Friedrichstraße 14, 70174 Штутгард</p>
+          <p>
+            Email:
+            <a href="mailto:example@mymail.com" class="contactLink">example@mymail.com</a>
+          </p>
+        </div>
+      </div>
+    </main>
+
+<footer>
+      <div class="footerlinksContainer">
+        <div class="footerAboutus">
+          <img src="./images/logo.png" width="200" alt="" />
+          <p class="darkPara">
+            Crypto offers a straightforward user interface and zero commissions,
+            making it the most dependable platform for cryptocurrency trading.
+          </p>
+          <div class="footersociallinkContainer">
+            <a href="https://www.instagram.com/ivan.momot.07/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i
+            ></a>
+            <a href="https://github.com/IvanMomot2007" target="_blank"
+              ><i class="fa-brands fa-github fa-xl" style="color: #fff"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footerlink">
+          <h1 class="linkTitle">Навігація</h1>
+          <a href="./index.html" class="eachLink">Головна</a>
+          <a href="./copilot.html" class="eachLink">Copilot</a>
+          <a href="./coding.html" class="eachLink">AI + Код</a>
+          <a href="./learning.html" class="eachLink">Навчання</a>
+          <a href="./ai-creativity.html" class="eachLink">Творчість</a>
+          <a href="./gallery.html" class="eachLink">Галерея</a>
+          <a href="./form-pz1.html" class="eachLink">Контакти</a>
+        </div>
+        <div class="footerlink">
+          <h1 class="linkTitle">Взірці</h1>
+          <a
+            href="https://github.com/ProgrammingInsider/Crypto-Website-Template"
+            class="eachLink"
+            target="_blank"
+            >Crypto-Website-Template</a
+          >
+          <a
+            href="https://codepen.io/bbx/pen/Jxoqdg"
+            class="eachLink"
+            target="_blank"
+            >Accordion gallery zoom animation (css, responsive)</a
+          >
+        </div>
+      </div>
+
+      <div class="footerCopyright">
+        <p>&copy; 2026 by <span class="developedBy">Ivan Momot</span></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+p {
+  color: var(--lightgrey);
+  line-height: 1.6;
+}
+
+.darkPara {
+  color: var(--darkText);
+  font-weight: 500;
+}
+
+.sectionPara {
+  font-size: 1.1rem;
+  margin-bottom: 3em;
+}
+
+.aiText {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}
+
+p.leadText::first-letter {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--primarycolor);
+  float: left;
+  line-height: 0.8;
+  margin-right: 8px;
+}
+
+a[href*="http"] {
+  color: var(--lightgrey);
+  transition: color 0.25s ease;
+}
+
+a {
+  color: var(--lightgrey);
+  transition: color 0.25s ease;
+}
+
+a[href*="http"]:hover {
+  color: var(--darkText);
+}
+
+a:hover {
+  color: var(--darkText);
+}
+
+.contactLink {
+  text-decoration: none;
+  color: var(--lightgrey);
+  transition: 0.25s;
+}
+
+.contactLink:hover {
+  color: var(--darkText);
+}
+
+.developedBy {
+  font-weight: bold;
+  color: var(--white);
+}
+
+p.para-thanks{
+  text-align: center;
+}

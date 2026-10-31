@@ -1,0 +1,58 @@
+header {
+  width: 90%;
+  height: 90px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1em;
+  background-color: var(--darkblue);
+}
+
+ul.menu {
+  list-style-type: none;
+}
+
+header .container {
+  margin: 1em !important;
+  max-width: 1200px;
+}
+
+nav {
+  height: 70px;
+  padding: 10px 0;
+  z-index: 9999;
+}
+
+.container nav {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Селектор нащадків / дочірній селектор */
+nav ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+nav a {
+  color: var(--white);
+  padding: 10px;
+  margin: 10px;
+  transition: 0.25s;
+}
+
+nav a:hover {
+  color: #c0c9d2;
+}
+
+nav .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#menu_toggle {
+  display: none;
+}
