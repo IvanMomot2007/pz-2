@@ -19,13 +19,15 @@ p {
 }
 
 a[href*="http"] {
+  text-decoration: underline;
+  text-underline-offset: 4px;
   color: var(--lightgrey);
-  transition: color 0.25s ease;
+  transition:  0.25s ease;
 }
 
 a {
   color: var(--lightgrey);
-  transition: color 0.25s ease;
+  transition:  0.25s ease;
 }
 
 a[href*="http"]:hover {
@@ -53,4 +55,13 @@ a:hover {
 
 p.para-thanks{
   text-align: center;
+}
+
+article.poem-card > p::first-letter {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #5e54e9;
+  float: left;
+  line-height: 0.85;
+  margin-right: 4px;
 }

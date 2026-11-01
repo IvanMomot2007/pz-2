@@ -14,12 +14,17 @@
 
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
-    <script src="https://kit.fontawesome.com/4184b76dff.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4184b76dff.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <div class="container flex logo">
-        <a href="./index.html"><img src="./images/logo.png" height="48px" alt="" /></a>
+        <a href="./index.html"
+          ><img src="./images/logo.png" height="48px" alt=""
+        /></a>
       </div>
       <nav>
         <input type="checkbox" id="menu_toggle" />
@@ -39,14 +44,26 @@
     <main class="page-main">
       <section class="hero gridSection">
         <div class="sectionDesc">
-          <h1 class="headline">Digital Copilot: людина, код і <span class="aiText">штучний інтелект</span></h1>
-          <p class="sub-headline">AI не замінює моє мислення. Він допомагає досліджувати ідеї, вчитися та створювати — а відповідальність за результат залишається за людиною.</p>
+          <h1 class="headline">
+            Digital Copilot: людина, код і
+            <span class="aiText">штучний інтелект</span>
+          </h1>
+          <p class="sub-headline">
+            AI не замінює моє мислення. Він допомагає досліджувати ідеї, вчитися
+            та створювати — а відповідальність за результат залишається за
+            людиною.
+          </p>
           <div class="btnContainer">
             <a href="./form-pz1.html" class="btn btn1">Контакти</a>
           </div>
         </div>
         <div class="sectionPic bouncepic" id="sectionPic">
-          <img src="./images/hero-image.png" alt="Ілюстрація людини, яка працює з цифровим помічником" width="752" height="750"/>
+          <img
+            src="./images/hero-image.png"
+            alt="Ілюстрація людини, яка працює з цифровим помічником"
+            width="752"
+            height="750"
+          />
         </div>
       </section>
       <section class="gridSection">
@@ -55,13 +72,21 @@
           <div class="eachProcesses">
             <div class="eachprocessesPara">
               <h3 class="processTitle">Іван Момот</h3>
-              <p>Студент Харківського національного університету радіоелектроніки. Цікавлюся веброзробкою, програмуванням та інструментами штучного інтелекту.</p>
+              <p>
+                Студент Харківського національного університету
+                радіоелектроніки. Цікавлюся веброзробкою, програмуванням та
+                інструментами штучного інтелекту.
+              </p>
             </div>
           </div>
           <div class="eachProcesses">
             <div class="eachprocessesPara">
               <h3 class="processTitle">Людина залишається автором рішення</h3>
-              <p>Digital Copilot — це підхід до роботи, у якому я визначаю мету, перевіряю інформацію та приймаю рішення, використовуючи AI як помічника.</p>
+              <p>
+                Digital Copilot — це підхід до роботи, у якому я визначаю мету,
+                перевіряю інформацію та приймаю рішення, використовуючи AI як
+                помічника.
+              </p>
               <p>Запитання → пропозиція AI → перевірка → моє рішення</p>
             </div>
           </div>
@@ -74,41 +99,50 @@
       <section class="content-section">
         <h2 id="stack-title">Мій технологічний стек</h2>
         <div class="table-scroll">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Сфера</th>
-                <th scope="col">Технології</th>
-                <th scope="col">Застосування</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Інтерфейси</td>
-                <td>HTML, CSS, JavaScript</td>
-                <td>Створення структури, стилів та інтерактивності сайту</td>
-              </tr>
-              <tr>
-                <td>Вебзастосунки</td>
-                <td>PHP, Laravel</td>
-                <td>Робота з логікою вебпроєктів</td>
-              </tr>
-              <tr>
-                <td>Керування сайтами</td>
-                <td>WordPress, WooCommerce</td>
-                <td>Розроблення сайтів і онлайн-магазинів</td>
-              </tr>
-              <tr>
-                <td>Дані</td>
-                <td>MySQL</td>
-                <td>Організація та зберігання даних</td>
-              </tr>
-              <tr>
-                <td>AI</td>
-                <td>Мовні та генеративні моделі</td>
-                <td>Навчання, пошук ідей та аналіз програмного коду</td>
-              </tr>
-            </tbody>
+          <table border="1">
+            <tr>
+              <th rowspan="2">Сфера</th>
+              <th colspan="2">Специфікація стеку</th>
+            </tr>
+
+            <tr>
+              <th>Технології</th>
+              <th>Для чого використовую</th>
+            </tr>
+
+            <tr>
+              <td rowspan="4">Web</td>
+              <td>HTML, CSS, JavaScript</td>
+              <td>Створення інтерфейсів вебсайтів</td>
+            </tr>
+
+            <tr>
+              <td>PHP, Laravel</td>
+              <td>Логіка вебзастосунків</td>
+            </tr>
+            <tr>
+              <td>WordPress</td>
+              <td>Розробка та керування сайтами</td>
+            </tr>
+
+            <tr>
+              <td>WooCommerce</td>
+              <td>Інтернет-магазини</td>
+            </tr>
+
+            <tr>
+              <td>Database</td>
+              <td>MySQL</td>
+              <td>Зберігання даних</td>
+            </tr>
+
+            <tr>
+              <td>AI</td>
+              <td colspan="2">
+                LLM та генеративний AI — аналіз, навчання, програмування та
+                оптимізація коду
+              </td>
+            </tr>
           </table>
         </div>
       </section>
@@ -119,7 +153,10 @@
             <img src="./images/programming.png" height="60" alt="handshake" />
             <div>
               <h3 class="marketTitle">Програмування</h3>
-              <p class="darkPara">Використовую AI, щоб розбиратися в коді та навчатися перевіряти рішення.</p>
+              <p class="darkPara">
+                Використовую AI, щоб розбиратися в коді та навчатися перевіряти
+                рішення.
+              </p>
               <a class="text-link" href="./coding.html">Мій підхід до коду</a>
             </div>
           </div>
@@ -127,7 +164,10 @@
             <img src="./images/learning.png" height="60" alt="handshake" />
             <div>
               <h3 class="marketTitle">Навчання</h3>
-              <p class="darkPara">Пояснюю собі складні теми, звіряю відповіді та закріплюю знання практикою.</p>
+              <p class="darkPara">
+                Пояснюю собі складні теми, звіряю відповіді та закріплюю знання
+                практикою.
+              </p>
               <a class="text-link" href="./learning.html">Навчальний цикл</a>
             </div>
           </div>
@@ -135,40 +175,60 @@
             <img src="./images/creativity.png" height="60" alt="handshake" />
             <div>
               <h3 class="marketTitle">Творчість</h3>
-              <p class="darkPara">Досліджую візуальні ідеї та розглядаю AI як інструмент для експериментів.</p>
-              <a class="text-link" href="./ai-creativity.html">Творчі експерименти</a>
+              <p class="darkPara">
+                Досліджую візуальні ідеї та розглядаю AI як інструмент для
+                експериментів.
+              </p>
+              <a class="text-link" href="./ai-creativity.html"
+                >Творчі експерименти</a
+              >
             </div>
           </div>
           <div class="eachMarket">
-            <img src="./images/pngtree-mind-people-technology-human-vector-png-image_34394258.png" height="60" alt=""/>
+            <img
+              src="./images/pngtree-mind-people-technology-human-vector-png-image_34394258.png"
+              height="60"
+              alt=""
+            />
             <div>
               <h3 class="marketTitle">Люди та технології</h3>
-              <p class="darkPara">Зображення, що показують програмування, цифрові інструменти й співпрацю.</p>
+              <p class="darkPara">
+                Зображення, що показують програмування, цифрові інструменти й
+                співпрацю.
+              </p>
               <a class="button" href="./gallery.html">Відкрити галерею</a>
             </div>
           </div>
         </div>
-        <div class="sectionPic marketspicSection" id="sectionPic">
-          <h3 class="marketspicHeader">AI TECH STACK</h3>
-          <div class="marketsPicContainer">
-            <div class="marketPic marketPic1">
-              <img src="./images/business process automation-svgfind-com.svg" alt="" />
-              <article class="marketTitle">AUTOMATION</article>
-            </div>
+        <div class="marketspicBg">
+          <div class="sectionPic marketspicSection" id="sectionPic">
+            <h3 class="marketspicHeader">AI TECH STACK</h3>
+            <div class="marketsPicContainer">
+              <div class="marketPic marketPic1">
+                <img
+                  src="./images/business process automation-svgfind-com.svg"
+                  alt=""
+                />
+                <article class="marketTitle">AUTOMATION</article>
+              </div>
 
-            <div class="marketPic marketPic2">
-              <img src="./images/icons8-ai-research-64 1_layerstyle.svg" alt="" />
-              <article class="marketTitle">AI RESEARCH</article>
-            </div>
+              <div class="marketPic marketPic2">
+                <img
+                  src="./images/icons8-ai-research-64 1_layerstyle.svg"
+                  alt=""
+                />
+                <article class="marketTitle">AI RESEARCH</article>
+              </div>
 
-            <div class="marketPic marketPic3">
-              <img src="./images/knowledge-base-svgrepo-com.svg" alt="" />
-              <article class="marketTitle">KNOWLEDGE BASE</article>
-            </div>
+              <div class="marketPic marketPic3">
+                <img src="./images/knowledge-base-svgrepo-com.svg" alt="" />
+                <article class="marketTitle">KNOWLEDGE BASE</article>
+              </div>
 
-            <div class="marketPic marketPic4">
-              <img src="./images/openai.svg" alt="" />
-              <article class="marketTitle">LOCAL LLM</article>
+              <div class="marketPic marketPic4">
+                <img src="./images/openai.svg" alt="" />
+                <article class="marketTitle">LOCAL LLM</article>
+              </div>
             </div>
           </div>
         </div>
@@ -179,10 +239,18 @@
       <div class="footerlinksContainer">
         <div class="footerAboutus">
           <img src="./images/logo.png" width="200" alt="" />
-          <p class="darkPara">Digital Copilot забезпечує швидкий доступ до екосистеми штучного інтелекту без зайвих складнощів, допомагаючи ефективно писати код, засвоювати знання та створювати власні цифрові рішення.</p>
+          <p class="darkPara">
+            Digital Copilot забезпечує швидкий доступ до екосистеми штучного
+            інтелекту без зайвих складнощів, допомагаючи ефективно писати код,
+            засвоювати знання та створювати власні цифрові рішення.
+          </p>
           <div class="footersociallinkContainer">
-            <a href="https://www.instagram.com/ivan.momot.07/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i></a>
-            <a href="https://github.com/IvanMomot2007" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #fff"></i></a>
+            <a href="https://www.instagram.com/ivan.momot.07/" target="_blank"
+              ><i class="fa-brands fa-instagram fa-xl" style="color: #fff"></i
+            ></a>
+            <a href="https://github.com/IvanMomot2007" target="_blank"
+              ><i class="fa-brands fa-github fa-xl" style="color: #fff"></i
+            ></a>
           </div>
         </div>
 
@@ -198,8 +266,18 @@
         </div>
         <div class="footerlink">
           <h1 class="linkTitle">Взірці</h1>
-          <a href="https://github.com/ProgrammingInsider/Crypto-Website-Template" class="eachLink" target="_blank">Crypto-Website-Template</a>
-          <a href="https://codepen.io/bbx/pen/Jxoqdg" class="eachLink" target="_blank">Accordion gallery zoom animation (css, responsive)</a>
+          <a
+            href="https://github.com/ProgrammingInsider/Crypto-Website-Template"
+            class="eachLink"
+            target="_blank"
+            >Crypto-Website-Template</a
+          >
+          <a
+            href="https://codepen.io/bbx/pen/Jxoqdg"
+            class="eachLink"
+            target="_blank"
+            >Accordion gallery zoom animation (css, responsive)</a
+          >
         </div>
       </div>
 
